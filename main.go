@@ -15,7 +15,6 @@ import (
 )
 
 const version = "1.0.0"
-const test = 14
 
 type config struct {
 	HttpHost string `env:"HTTP_HOST" envDefault:"0.0.0.0"`

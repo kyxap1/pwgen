@@ -20,9 +20,9 @@ type config struct {
 	HttpHost string `env:"HTTP_HOST" envDefault:"0.0.0.0"`
 	HttpPort string `env:"HTTP_PORT" envDefault:"8080"`
 
-	PasswordLength int  `env:"PASSWORD_LENGTH" envDefault:"14"`
+	PasswordLength int  `env:"PASSWORD_LENGTH" envDefault:"16"`
 	NumDigits      int  `env:"NUM_DIGITS" envDefault:"1"`
-	NumSymbols     int  `env:"NUM_SYMBOLS" envDefault:"0"`
+	NumSymbols     int  `env:"NUM_SYMBOLS" envDefault:"1"`
 	NoUpper        bool `env:"NO_UPPER" envDefault:"false"`
 	AllowRepeat    bool `env:"ALLOW_REPEAT" envDefault:"false"`
 }
